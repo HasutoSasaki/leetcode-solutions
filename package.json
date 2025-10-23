@@ -1,0 +1,28 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasutoSasaki/leetcode-solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/HasutoSasaki/leetcode-solutions/issues"
+  },
+  "homepage": "https://github.com/HasutoSasaki/leetcode-solutions#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
