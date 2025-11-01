@@ -13,4 +13,7 @@ describe('reverse', () => {
     it('case4', () => {
         expect(reverse(12)).toBe(21)
     })
+    it('case5', () => {
+        expect(reverse(1534236469)).toBe(0)
+    })
 })

@@ -1,3 +1,6 @@
+const INT_MIN = -(2 ** 31) // -2147483648
+const INT_MAX = 2 ** 31 - 1 // 2147483647
+
 export function reverse(x: number): number {
     let result = 0;
     let num = Math.abs(x); // 絶対値で処理
@@ -9,5 +12,10 @@ export function reverse(x: number): number {
     }
 
     // 符号を戻す
-    return x < 0 ? -result : result
+    result = x < 0 ? -result : result
+
+    // 32 bit 範囲チェック(範囲外なら0を返す)
+    if (result < INT_MIN || result > INT_MAX) return 0
+
+    return result;
 };
