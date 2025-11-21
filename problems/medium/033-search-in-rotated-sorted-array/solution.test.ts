@@ -8,7 +8,8 @@ describe('search', () => {
     it('case2', () => {
         expect(search([4, 5, 6, 7, 0, 1, 2], 3)).toBe(-1)
     })
-    it('case1', () => {
+
+    it('case3', () => {
         expect(search([-1], 0)).toBe(-1)
     })
 })
